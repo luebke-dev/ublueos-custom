@@ -13,7 +13,17 @@ RELEASE="$(rpm -E %fedora)"
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-rpm-ostree install screen
+rpm-ostree install screen \
+    zsh \
+    distrobox \
+    libvirt \
+    virt-manager \
+    virt-install \
+    wireguard-tools \
+    solaar \
+    gnome-shell-extension-appindicator \
+    gnome-tweaks \
+    gnome-shell-extension-no-overview
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
