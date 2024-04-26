@@ -21,6 +21,7 @@ rpm-ostree install screen \
     virt-install \
     wireguard-tools \
     solaar \
+    nmap \
     gnome-shell-extension-appindicator \
     gnome-tweaks \
     gnome-shell-extension-no-overview
