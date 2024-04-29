@@ -22,6 +22,7 @@ rpm-ostree install screen \
     wireguard-tools \
     solaar \
     nmap \
+    rclone \
     gnome-shell-extension-appindicator \
     gnome-tweaks \
     gnome-shell-extension-no-overview
