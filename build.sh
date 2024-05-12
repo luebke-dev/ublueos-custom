@@ -19,6 +19,7 @@ rpm-ostree install screen \
     libvirt \
     virt-manager \
     virt-install \
+    restic \
     wireguard-tools \
     solaar \
     nmap \
