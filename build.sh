@@ -14,18 +14,9 @@ RELEASE="$(rpm -E %fedora)"
 
 # this installs a package from fedora repos
 rpm-ostree install screen \
-    zsh \
-    distrobox \
-    libvirt \
-    virt-manager \
-    virt-install \
     restic \
-    wireguard-tools \
-    solaar \
     nmap \
     rclone \
-    gnome-shell-extension-appindicator \
-    gnome-tweaks \
     gnome-shell-extension-no-overview
 
 # this would install a package from rpmfusion
