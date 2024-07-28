@@ -17,7 +17,8 @@ rpm-ostree install screen \
     restic \
     nmap \
     rclone \
-    gnome-shell-extension-no-overview
+    gnome-shell-extension-no-overview \
+    docker-compose
 
 # this would install a package from rpmfusion
 # rpm-ostree install vlc
